@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C++ (with -mconsole)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-mconsole",
+        "hello.cpp",
+        "-o",
+        "hello"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Builds hello.cpp using g++ with -mconsole"
+    }
+  ]
+}
+
